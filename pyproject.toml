@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "dotrun"
+version = "0.1.0"
+description = "A tool for running local projects"
+license = "LGPLv3"
+authors = ["Robin Winslow <robin@robinwinslow.co.uk>"]
+readme = 'README.md'  # Markdown files are supported
+repository = "https://github.com/nottrobin/dotrun"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
